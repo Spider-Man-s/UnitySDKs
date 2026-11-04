@@ -26,10 +26,10 @@ namespace Microsoft.MixedReality.OpenXR
     [RequireComponent(typeof(ARSessionOrigin))]
 #endif
     public sealed class ARMarkerManager : ARTrackableManager<
-        XRMarkerSubsystem,
-        XRMarkerSubsystemDescriptor,
-        XRMarkerSubsystem.Provider,
-        XRMarker,
+        ARSubsystems.XRMarkerSubsystem,
+        ARSubsystems.XRMarkerSubsystemDescriptor,
+        ARSubsystems.XRMarkerSubsystem.Provider,
+        ARSubsystems.XRMarker,
         ARMarker>
     {
         private static ARMarkerManager m_instance = null;
