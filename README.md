@@ -79,17 +79,15 @@ Add the desired packages under `dependencies`:
 ```json
 {
   "dependencies": {
-    "com.company.sdk1": "https://github.com/USERNAME/UnitySDKs.git?path=/Packages/SDK1#main",
-    "com.company.sdk2": "https://github.com/USERNAME/UnitySDKs.git?path=/Packages/SDK2#main",
-    "com.company.sdk3": "https://github.com/USERNAME/UnitySDKs.git?path=/Packages/SDK3#main"
+    "com.company.sdk1": "https://github.com/Spider-Man-s/UnitySDKs.git?path=/Packages/SDK1#master",
+    "com.company.sdk2": "https://github.com/Spider-Man-s/UnitySDKs.git?path=/Packages/SDK2#master",
+    "com.company.sdk3": "https://github.com/Spider-Man-s/UnitySDKs.git?path=/Packages/SDK3#master"
   }
 }
 ```
 
 Replace:
 
-- `USERNAME` with your GitHub username.
-- `UnitySDKs` with your repository name.
 - `SDK1`, `SDK2`, etc. with the actual folder names.
 - Package identifiers with the corresponding `name` values from each `package.json`.
 
